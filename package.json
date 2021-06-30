@@ -9,7 +9,7 @@
     "coverage": "npx builder coverage",
     "migrate:testnet": "truffle migrate --network bscTestnet --reset",
     "compile:testnet": "truffle compile --network bscTestnet",
-    "flatten": "sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/MasterChef.sol\" ./flatten/ && sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/LittleFoxToken.sol\" ./flatten/",
+    "flatten": "sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/MasterChef.sol\" ./flatten/ && sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/LittleFoxToken.sol\" ./flatten/ && sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/Timelock.sol\" ./flatten/",
     "migrate:mainnet": "truffle migrate --network bscMainnet --reset",
     "compile:mainnet": "truffle compile --network bscMainnet"
 

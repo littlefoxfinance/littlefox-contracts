@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 // COPIED FROM https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/GovernorAlpha.sol
 // Copyright 2020 Compound Labs, Inc.
 // Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -8,9 +10,6 @@
 //
 // Ctrl+f for XXX to see all the modifications.
 
-// SPDX-License-Identifier: MIT
-
-// XXX: pragma solidity ^0.5.16;
 pragma solidity 0.6.12;
 
 // XXX: import "./SafeMath.sol";
@@ -45,6 +44,7 @@ contract Timelock {
         admin = admin_;
         delay = delay_;
         admin_initialized = false;
+        
     }
 
     // XXX: function() external payable { }
