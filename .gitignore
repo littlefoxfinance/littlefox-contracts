@@ -1,0 +1,18 @@
+/node_modules/
+/build/
+.idea/
+
+node_modules
+
+#Buidler files
+cache
+artifacts
+coverage
+coverage.json
+/secrets
+/flatten
+/migrations
+buidler.config.js
+test/
+truffle-config.js
+yarn.lock
